@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import  { CtxObject } from '@/types'
+  import  { CtxObject } from '@/types/index.js'
   import { watchEffect, inject, onBeforeUnmount } from 'vue'
   import { setQueue, deleteQueue, DrawType } from '@/hooks/useDraw'
   import {getSpriteCenter} from '@/utils'
